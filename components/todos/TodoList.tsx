@@ -14,6 +14,7 @@ function TodoList() {
   const { data, isLoading, error }: any = useQuery({
     queryKey: ["todos"],
     queryFn: fetchTodos,
+     staleTime: 30_000,
   });
 
   return (
