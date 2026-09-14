@@ -24,7 +24,7 @@ function TodoList() {
       {data && (
         <ul>
           {data?.todos.map((todo: any) => (
-            <li className="py-4 bg-gray-800 px-4  mb-2" key={todo._id}>
+            <li className="py-4 bg-gray-800 px-4 text-white mb-2" key={todo._id}>
               {todo.title}
             </li>
           ))}
