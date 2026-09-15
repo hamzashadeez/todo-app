@@ -18,6 +18,8 @@ export const metadata: Metadata = {
   description: "Learning System Design",
 };
 
+let learningSystemDesign: any = ""
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
